@@ -31,6 +31,6 @@ jobs:
       - name: Installing Surge
         run: npm install --global surge
       - name: Deploying Using Surge
-        run: surge ./ marvelous-appliance.surge.sh --token $ {{ secrets.SURGE_TOKEN }}
+        run: surge ./ taboo-visitor.surge.sh --token ${{ secrets.SURGE_TOKEN }}
           echo Add other actions to build,
           echo test, and deploy your project.
